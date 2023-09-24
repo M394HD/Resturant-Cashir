@@ -1,0 +1,11 @@
+C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.exe.config
+C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.exe
+C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.pdb
+C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.AssemblyReference.cache
+C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainForm.resources
+C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Properties.Resources.resources
+C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.GenerateResource.cache
+C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.CoreCompileInputs.cache
+C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.exe
+C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.pdb
