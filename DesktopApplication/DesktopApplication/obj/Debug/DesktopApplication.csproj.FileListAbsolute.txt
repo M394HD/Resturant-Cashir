@@ -9,3 +9,14 @@ C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication
 C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.CoreCompileInputs.cache
 C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.exe
 C:\Users\compu\Source\Repos\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.pdb
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.AssemblyReference.cache
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.SuggestedBindingRedirects.cache
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainForm.resources
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Properties.Resources.resources
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.GenerateResource.cache
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.CoreCompileInputs.cache
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.exe
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.pdb
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.exe.config
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.exe
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.pdb

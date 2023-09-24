@@ -69,6 +69,7 @@
             this.btnOptions.Text = "Options";
             this.btnOptions.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnOptions.UseVisualStyleBackColor = true;
+            this.btnOptions.Click += new System.EventHandler(this.btnOptions_Click);
             // 
             // btnReporting
             // 
@@ -87,6 +88,7 @@
             this.btnReporting.Text = "Reporting";
             this.btnReporting.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnReporting.UseVisualStyleBackColor = true;
+            this.btnReporting.Click += new System.EventHandler(this.btnReporting_Click);
             // 
             // btnSetup
             // 
@@ -105,6 +107,7 @@
             this.btnSetup.Text = "Setup";
             this.btnSetup.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSetup.UseVisualStyleBackColor = true;
+            this.btnSetup.Click += new System.EventHandler(this.btnSetup_Click);
             // 
             // btnPOS
             // 
@@ -123,6 +126,7 @@
             this.btnPOS.Text = "Point Of Sale";
             this.btnPOS.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPOS.UseVisualStyleBackColor = true;
+            this.btnPOS.Click += new System.EventHandler(this.btnPOS_Click);
             // 
             // pnlLogo
             // 
