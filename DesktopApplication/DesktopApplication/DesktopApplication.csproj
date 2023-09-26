@@ -52,10 +52,46 @@
     <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\MainOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainOptions.Designer.cs">
+      <DependentUpon>MainOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainPointOfSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainPointOfSale.Designer.cs">
+      <DependentUpon>MainPointOfSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainReports.Designer.cs">
+      <DependentUpon>MainReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainSetup.Designer.cs">
+      <DependentUpon>MainSetup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainOptions.resx">
+      <DependentUpon>MainOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainPointOfSale.resx">
+      <DependentUpon>MainPointOfSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainReports.resx">
+      <DependentUpon>MainReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainSetup.resx">
+      <DependentUpon>MainSetup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

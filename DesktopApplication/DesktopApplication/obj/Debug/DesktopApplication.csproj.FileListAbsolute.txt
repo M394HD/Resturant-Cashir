@@ -20,3 +20,7 @@ D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Deb
 D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.exe.config
 D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.exe
 D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.pdb
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainOptions.resources
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainPointOfSale.resources
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainReports.resources
+D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainSetup.resources
