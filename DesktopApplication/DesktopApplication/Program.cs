@@ -19,7 +19,7 @@ namespace DesktopApplication
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             adoClass.SetConeection();
-            Application.Run(new MainForm());
+            Application.Run(new FormLogin());
         }
     }
 }

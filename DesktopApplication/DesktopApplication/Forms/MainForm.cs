@@ -9,23 +9,32 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using DesktopApplication.Forms;
+using DesktopApplication.Classes;
 
 namespace DesktopApplication.Forms
 {
     
     public partial class MainForm : Form
     {
+        public string user;
         private Button currentButton;
         private Form activeForm;
         public MainForm()
         {
             InitializeComponent();
         }
+
+        public MainForm(string fullname)
+        {
+            InitializeComponent();
+            user = fullname;    
+        }
         private void MainForm_Load(object sender, EventArgs e)
         {
             lblTime.Text = DateTime.Now.ToString();
             this.Text = string.Empty;
             this.ControlBox = false;
+            UserLabel.Text = user;
         }
 
         private void OpenChildForm(Form cForm , object btnSender)

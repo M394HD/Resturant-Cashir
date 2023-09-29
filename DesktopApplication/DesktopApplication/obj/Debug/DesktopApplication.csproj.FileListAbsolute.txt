@@ -24,22 +24,98 @@ D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Deb
 D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainPointOfSale.resources
 D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainReports.resources
 D:\iti\Projects\DesktopApplication\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainSetup.resources
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.AssemblyReference.cache
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.FormUsers.resources
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainForm.resources
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainOptions.resources
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainPointOfSale.resources
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainReports.resources
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainSetup.resources
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Properties.Resources.resources
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.GenerateResource.cache
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.CoreCompileInputs.cache
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.exe
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.pdb
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.exe.config
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.exe
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.pdb
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.FormSelect.resources
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.FormCategories.resources
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.FormItems.resources
-D:\DotNet\Visual C#\CProject\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.FormPayments.resources
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.exe.config
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.exe
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\DesktopApplication.pdb
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Azure.Core.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Azure.Identity.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\CrystalDecisions.Shared.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\EntityFramework.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\log4net.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.Identity.Client.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Buffers.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Memory.Data.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Memory.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Numerics.Vectors.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Security.AccessControl.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Security.Permissions.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Security.Principal.Windows.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Text.Encodings.Web.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Text.Json.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.ValueTuple.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Azure.Core.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Azure.Identity.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\EntityFramework.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\log4net.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.Identity.Client.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Buffers.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Memory.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Memory.Data.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Numerics.Vectors.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Security.AccessControl.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Security.Permissions.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Security.Principal.Windows.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Text.Encodings.Web.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Text.Json.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\System.ValueTuple.xml
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.AssemblyReference.cache
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.FormLogin.resources
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.FormReceipt.resources
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainForm.resources
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainOptions.resources
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainPointOfSale.resources
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainReports.resources
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Forms.MainSetup.resources
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.Properties.Resources.resources
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.GenerateResource.cache
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.CoreCompileInputs.cache
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.csproj.CopyComplete
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.exe
+D:\Project_ITI\Project\ProjectDeskTop\DesktopApplication\DesktopApplication\obj\Debug\DesktopApplication.pdb

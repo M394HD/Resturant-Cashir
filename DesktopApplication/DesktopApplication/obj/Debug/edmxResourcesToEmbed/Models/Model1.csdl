@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SmartPOSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DES" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Check">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="checkDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="userId" Type="Int32" Nullable="false" />
+    <Property Name="totalCheck" Type="Decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ChecksItem">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CheckId" Type="Int32" Nullable="false" />
+    <Property Name="ItemId" Type="Int32" Nullable="false" />
+    <Property Name="QTY" Type="Decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="price" Type="Decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="totalPrice" Type="Decimal" Precision="18" Scale="4" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ChecksPay">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PaymentId" Type="Int32" Nullable="false" />
+    <Property Name="PayVal" Type="Decimal" Precision="18" Scale="4" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Item">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DES" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CategoryId" Type="Int32" Nullable="false" />
+    <Property Name="price" Type="Decimal" Precision="18" Scale="4" Nullable="false" />
+    <Property Name="itemImg" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="notes" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Option">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Rsetname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prenterName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="RestAddress1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RestAddress2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="receiptLine1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="receiptLine2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="telephone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="logo" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Des" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fullName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="jobDes" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="SmartPOSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Checks" EntityType="Self.Check" />
+    <EntitySet Name="ChecksItems" EntityType="Self.ChecksItem" />
+    <EntitySet Name="ChecksPays" EntityType="Self.ChecksPay" />
+    <EntitySet Name="Items" EntityType="Self.Item" />
+    <EntitySet Name="Options" EntityType="Self.Option" />
+    <EntitySet Name="Payments" EntityType="Self.Payment" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="ViewReceipts" EntityType="SmartPOSModel.ViewReceipt" />
+  </EntityContainer>
+  <EntityType Name="ViewReceipt">
+    <Key>
+      <PropertyRef Name="ItemId" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="QTY" />
+      <PropertyRef Name="totalPrice" />
+    </Key>
+    <Property Name="ItemId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="QTY" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="totalPrice" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+  </EntityType>
+</Schema>

@@ -26,10 +26,22 @@ namespace DesktopApplication.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=SmartPOS;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-D306P8Q\\SQLSERVERDEVELOP;Initial Catalog=SmartPOS;Integrated " +
+            "Security=True")]
         public string connection {
             get {
                 return ((string)(this["connection"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-D306P8Q\\SQLSERVERDEVELOP;Initial Catalog=SmartPOS;Integrated " +
+            "Security=True")]
+        public string SmartPOSConnectionString {
+            get {
+                return ((string)(this["SmartPOSConnectionString"]));
             }
         }
     }

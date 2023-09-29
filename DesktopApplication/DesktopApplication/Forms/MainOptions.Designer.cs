@@ -179,10 +179,10 @@
             // 
             // btnSelectPic
             // 
-            this.btnSelectPic.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.btnSelectPic.Location = new System.Drawing.Point(308, 326);
+            this.btnSelectPic.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelectPic.Location = new System.Drawing.Point(308, 330);
             this.btnSelectPic.Name = "btnSelectPic";
-            this.btnSelectPic.Size = new System.Drawing.Size(38, 28);
+            this.btnSelectPic.Size = new System.Drawing.Size(30, 23);
             this.btnSelectPic.TabIndex = 18;
             this.btnSelectPic.Text = "...";
             this.btnSelectPic.UseVisualStyleBackColor = true;
