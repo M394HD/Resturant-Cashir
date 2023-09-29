@@ -21,5 +21,6 @@ namespace DesktopApplication.Forms
         {
             Close();
         }
+
     }
 }
