@@ -21,5 +21,29 @@ namespace DesktopApplication.Forms
         {
             Close();
         }
+
+        private void btnUser_Click(object sender, EventArgs e)
+        {
+            FormUsers form = new FormUsers();
+            form.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormCategories form = new FormCategories();
+            form.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormItems form = new FormItems();
+            form.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormPayments form = new FormPayments();
+            form.ShowDialog();
+        }
     }
 }

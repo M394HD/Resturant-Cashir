@@ -269,6 +269,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\adoClass.cs" />
+    <Compile Include="Classes\ComboItem.cs" />
     <Compile Include="Classes\Helper.cs" />
     <Compile Include="Forms\CrystalReportReceipt.cs">
       <AutoGen>True</AutoGen>
@@ -276,17 +277,47 @@
       <DependentUpon>CrystalReportReceipt.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Forms\FormCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCategories.Designer.cs">
+      <DependentUpon>FormCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormItems.Designer.cs">
+      <DependentUpon>FormItems.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPayments.Designer.cs">
+      <DependentUpon>FormPayments.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormReceipt.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormReceipt.Designer.cs">
       <DependentUpon>FormReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSelect.Designer.cs">
+      <DependentUpon>FormSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUser.Designer.cs">
+      <DependentUpon>FormUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
@@ -371,11 +402,26 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReportReceipt.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCategories.resx">
+      <DependentUpon>FormCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormItems.resx">
+      <DependentUpon>FormItems.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPayments.resx">
+      <DependentUpon>FormPayments.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormReceipt.resx">
       <DependentUpon>FormReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSelect.resx">
+      <DependentUpon>FormSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUser.resx">
+      <DependentUpon>FormUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
