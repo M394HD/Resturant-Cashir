@@ -21,5 +21,11 @@ namespace DesktopApplication.Forms
         {
             Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            POSForm pOSForm = new POSForm();
+            pOSForm.ShowDialog();
+        }
     }
 }

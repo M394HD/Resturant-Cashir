@@ -17,6 +17,8 @@ namespace DesktopApplication.Models
     {
         public SmartPOSEntities()
             : base("name=SmartPOSEntities")
+        //: base("Data Source = DESKTOP - D306P8Q\\SQLSERVERDEVELOP;Initial Catalog = SmartPOS; Integrated Security = True")
+
         {
         }
     

@@ -16,6 +16,7 @@ namespace DesktopApplication
         [STAThread]
         static void Main()
         {
+            declarations.userId = -1;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             adoClass.SetConeection();
