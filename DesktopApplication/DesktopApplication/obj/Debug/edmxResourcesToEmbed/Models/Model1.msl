@@ -100,5 +100,16 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="userpermissions">
+      <EntityTypeMapping TypeName="SmartPOSModel.userpermission">
+        <MappingFragment StoreEntitySet="userpermission">
+          <ScalarProperty Name="case" ColumnName="case" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="permission" ColumnName="permission" />
+          <ScalarProperty Name="main_screen" ColumnName="main_screen" />
+          <ScalarProperty Name="permission_id" ColumnName="permission_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

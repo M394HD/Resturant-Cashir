@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using DesktopApplication.Forms;
 using DesktopApplication.Classes;
+using DesktopApplication.Models;
 
 namespace DesktopApplication.Forms
 {
@@ -35,6 +36,7 @@ namespace DesktopApplication.Forms
             this.Text = string.Empty;
             this.ControlBox = false;
             UserLabel.Text = user;
+            
         }
 
         private void OpenChildForm(Form cForm , object btnSender)
@@ -150,6 +152,29 @@ namespace DesktopApplication.Forms
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        public void loadPermission(Control.ControlCollection controls,string mainscreeen)
+        {
+            SmartPOSEntities smartPOSData = new SmartPOSEntities();
+            foreach (Control control in controls)
+            {
+                for(int i=0;i<control.Controls.Count; i++)
+                {
+
+                    var model=declarations.permissions.Where(x=> x.mainScreeen==mainscreeen
+                                                                 && x.permission == control.Controls[i].AccessibleName).FirstOrDefault();
+                
+                    if(model!=null)
+                        control.Controls[i].Enabled=(bool)model._case;
+
+                }
+            }
+        }
+
+        private void pnlMenu_Paint(object sender, PaintEventArgs e)
+        {
+            loadPermission(this.Controls, "Main");
         }
     }
 }

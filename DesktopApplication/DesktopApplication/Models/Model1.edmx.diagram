@@ -14,6 +14,7 @@
         <EntityTypeShape EntityType="SmartPOSModel.Payment" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="SmartPOSModel.User" Width="1.5" PointX="4.75" PointY="3.625" IsExpanded="true" />
         <EntityTypeShape EntityType="SmartPOSModel.ViewReceipt" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="SmartPOSModel.userpermission" Width="1.5" PointX="3.375" PointY="6.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

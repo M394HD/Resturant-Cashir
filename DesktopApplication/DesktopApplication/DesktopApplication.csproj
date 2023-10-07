@@ -302,6 +302,12 @@
     <Compile Include="Forms\FormPayments.Designer.cs">
       <DependentUpon>FormPayments.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormPermissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPermissions.Designer.cs">
+      <DependentUpon>FormPermissions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormReceipt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -395,6 +401,9 @@
     <Compile Include="Models\User.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\userpermission.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\ViewReceipt.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -420,6 +429,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormPayments.resx">
       <DependentUpon>FormPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPermissions.resx">
+      <DependentUpon>FormPermissions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormReceipt.resx">
       <DependentUpon>FormReceipt.cs</DependentUpon>

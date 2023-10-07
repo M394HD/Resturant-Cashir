@@ -69,6 +69,16 @@
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Des" Type="nchar" MaxLength="10" />
   </EntityType>
+  <EntityType Name="userpermission">
+    <Key>
+      <PropertyRef Name="permission_id" />
+    </Key>
+    <Property Name="permission_id" Type="int" Nullable="false" />
+    <Property Name="main_screen" Type="varchar" MaxLength="50" />
+    <Property Name="permission" Type="varchar" MaxLength="50" />
+    <Property Name="userid" Type="int" />
+    <Property Name="case" Type="bit" />
+  </EntityType>
   <EntityType Name="Users">
     <Key>
       <PropertyRef Name="id" />
@@ -103,6 +113,7 @@ warning 6002: The table/view 'SmartPOS.dbo.ViewReceipt' does not have a primary 
     <EntitySet Name="Items" EntityType="Self.Items" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Options" EntityType="Self.Options" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Payments" EntityType="Self.Payments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="userpermission" EntityType="Self.userpermission" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="ViewReceipt" EntityType="Self.ViewReceipt" store:Type="Views" store:Schema="dbo">
       <DefiningQuery>SELECT 

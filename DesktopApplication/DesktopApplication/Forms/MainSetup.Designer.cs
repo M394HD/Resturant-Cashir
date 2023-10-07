@@ -34,6 +34,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.btnUser = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.buttonPermission = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -66,7 +67,7 @@
             // 
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.Location = new System.Drawing.Point(12, 225);
+            this.button3.Location = new System.Drawing.Point(12, 202);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(90, 89);
             this.button3.TabIndex = 3;
@@ -102,11 +103,25 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // buttonPermission
+            // 
+            this.buttonPermission.Image = ((System.Drawing.Image)(resources.GetObject("buttonPermission.Image")));
+            this.buttonPermission.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.buttonPermission.Location = new System.Drawing.Point(119, 12);
+            this.buttonPermission.Name = "buttonPermission";
+            this.buttonPermission.Size = new System.Drawing.Size(90, 89);
+            this.buttonPermission.TabIndex = 6;
+            this.buttonPermission.Text = "Permission";
+            this.buttonPermission.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buttonPermission.UseVisualStyleBackColor = true;
+            this.buttonPermission.Click += new System.EventHandler(this.buttonPermission_Click);
+            // 
             // MainSetup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonPermission);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnUser);
             this.Controls.Add(this.button3);
@@ -125,5 +140,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnUser;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button buttonPermission;
     }
 }

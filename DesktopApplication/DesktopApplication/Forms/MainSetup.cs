@@ -45,5 +45,11 @@ namespace DesktopApplication.Forms
             FormPayments form = new FormPayments();
             form.ShowDialog();
         }
+
+        private void buttonPermission_Click(object sender, EventArgs e)
+        {
+            FormPermissions permissions = new FormPermissions();
+            permissions.ShowDialog();
+        }
     }
 }

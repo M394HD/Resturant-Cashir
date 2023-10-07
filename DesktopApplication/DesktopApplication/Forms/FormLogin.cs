@@ -15,6 +15,7 @@ namespace DesktopApplication.Forms
     public partial class FormLogin : Form
     {
         string user;
+        int userCode;
         public FormLogin()
         {
             InitializeComponent();
@@ -24,6 +25,7 @@ namespace DesktopApplication.Forms
         {
             if (Check())
             {
+                loadPermission();
                 MainForm mainForm = new MainForm(user);
                 mainForm.ShowDialog();
             }
@@ -39,6 +41,7 @@ namespace DesktopApplication.Forms
                 if (item.userName == textBoxUserName.Text && item.password == textBoxPassword.Text)
                 {
                     user = item.fullName;
+                    userCode=item.id;
                     return true;
                 }
             }
@@ -48,6 +51,28 @@ namespace DesktopApplication.Forms
         private void buttonCancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        public void loadPermission()
+        {
+            SmartPOSEntities smartPOSEntities= new SmartPOSEntities();
+            declarations.permissions = new List<Permission>();
+            Permission model = new Permission();
+            var q = from p in smartPOSEntities.userpermissions
+                    where p.userid==userCode
+                    select p;
+            foreach(var user in q)
+            {
+                //model.mainScreeen = user.main_screen;
+                //model.permission=user.permission;
+                //model._case = (bool)user.@case;
+                declarations.permissions.Add(new Permission
+                {
+                    mainScreeen = user.main_screen,
+                    permission = user.permission,
+                    _case=(bool)user.@case
+                });
+            }
         }
     }
 }

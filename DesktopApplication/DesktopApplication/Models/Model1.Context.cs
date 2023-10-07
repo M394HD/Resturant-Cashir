@@ -17,8 +17,6 @@ namespace DesktopApplication.Models
     {
         public SmartPOSEntities()
             : base("name=SmartPOSEntities")
-        //: base("Data Source = DESKTOP - D306P8Q\\SQLSERVERDEVELOP;Initial Catalog = SmartPOS; Integrated Security = True")
-
         {
         }
     
@@ -36,5 +34,6 @@ namespace DesktopApplication.Models
         public virtual DbSet<Payment> Payments { get; set; }
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<ViewReceipt> ViewReceipts { get; set; }
+        public virtual DbSet<userpermission> userpermissions { get; set; }
     }
 }

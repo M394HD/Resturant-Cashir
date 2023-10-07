@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCategories));
-            this.lblDes = new System.Windows.Forms.Label();
-            this.txtDes = new System.Windows.Forms.TextBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.btnSelect = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -43,25 +41,10 @@
             this.btnLast = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.btnExit = new System.Windows.Forms.ToolStripButton();
+            this.lblDes = new System.Windows.Forms.Label();
+            this.txtDes = new System.Windows.Forms.TextBox();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // lblDes
-            // 
-            this.lblDes.AutoSize = true;
-            this.lblDes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDes.Location = new System.Drawing.Point(57, 116);
-            this.lblDes.Name = "lblDes";
-            this.lblDes.Size = new System.Drawing.Size(35, 16);
-            this.lblDes.TabIndex = 9;
-            this.lblDes.Text = "Des";
-            // 
-            // txtDes
-            // 
-            this.txtDes.Location = new System.Drawing.Point(107, 113);
-            this.txtDes.Name = "txtDes";
-            this.txtDes.Size = new System.Drawing.Size(277, 20);
-            this.txtDes.TabIndex = 8;
             // 
             // toolStrip1
             // 
@@ -80,8 +63,8 @@
             this.btnExit});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(584, 68);
-            this.toolStrip1.TabIndex = 7;
+            this.toolStrip1.Size = new System.Drawing.Size(567, 68);
+            this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // btnSelect
@@ -92,6 +75,7 @@
             this.btnSelect.Size = new System.Drawing.Size(50, 65);
             this.btnSelect.Text = "Select";
             this.btnSelect.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
             // 
             // toolStripSeparator1
             // 
@@ -106,6 +90,7 @@
             this.btnNew.Size = new System.Drawing.Size(50, 65);
             this.btnNew.Text = "New";
             this.btnNew.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // btnSave
             // 
@@ -115,6 +100,7 @@
             this.btnSave.Size = new System.Drawing.Size(50, 65);
             this.btnSave.Text = "Save";
             this.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // toolStripSeparator2
             // 
@@ -129,6 +115,7 @@
             this.btnFirst.Size = new System.Drawing.Size(50, 65);
             this.btnFirst.Text = "First";
             this.btnFirst.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnFirst.Click += new System.EventHandler(this.btnFirst_Click);
             // 
             // btnBack
             // 
@@ -138,6 +125,7 @@
             this.btnBack.Size = new System.Drawing.Size(50, 65);
             this.btnBack.Text = "Back";
             this.btnBack.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnNext
             // 
@@ -147,6 +135,7 @@
             this.btnNext.Size = new System.Drawing.Size(50, 65);
             this.btnNext.Text = "Next";
             this.btnNext.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // btnLast
             // 
@@ -156,6 +145,7 @@
             this.btnLast.Size = new System.Drawing.Size(50, 65);
             this.btnLast.Text = "Last";
             this.btnLast.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnLast.Click += new System.EventHandler(this.btnLast_Click);
             // 
             // toolStripSeparator3
             // 
@@ -171,16 +161,38 @@
             this.btnExit.Size = new System.Drawing.Size(50, 65);
             this.btnExit.Text = "Exit";
             this.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // lblDes
+            // 
+            this.lblDes.AutoSize = true;
+            this.lblDes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDes.Location = new System.Drawing.Point(43, 120);
+            this.lblDes.Name = "lblDes";
+            this.lblDes.Size = new System.Drawing.Size(35, 16);
+            this.lblDes.TabIndex = 6;
+            this.lblDes.Text = "Des";
+            // 
+            // txtDes
+            // 
+            this.txtDes.Location = new System.Drawing.Point(93, 117);
+            this.txtDes.Name = "txtDes";
+            this.txtDes.Size = new System.Drawing.Size(277, 20);
+            this.txtDes.TabIndex = 5;
             // 
             // FormCategories
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 177);
+            this.ClientSize = new System.Drawing.Size(567, 218);
             this.Controls.Add(this.lblDes);
             this.Controls.Add(this.txtDes);
             this.Controls.Add(this.toolStrip1);
+            this.MinimizeBox = false;
             this.Name = "FormCategories";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCategories";
             this.Load += new System.EventHandler(this.FormCategories_Load);
             this.toolStrip1.ResumeLayout(false);
@@ -192,8 +204,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblDes;
-        private System.Windows.Forms.TextBox txtDes;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton btnSelect;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
@@ -206,5 +216,7 @@
         private System.Windows.Forms.ToolStripButton btnLast;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripButton btnExit;
+        private System.Windows.Forms.Label lblDes;
+        private System.Windows.Forms.TextBox txtDes;
     }
 }

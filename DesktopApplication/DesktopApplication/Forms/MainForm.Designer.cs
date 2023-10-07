@@ -41,12 +41,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlTitle = new System.Windows.Forms.Panel();
+            this.UserLabel = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.lblTime = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pnlMainForm = new System.Windows.Forms.Panel();
-            this.UserLabel = new System.Windows.Forms.Label();
             this.pnlMenu.SuspendLayout();
             this.pnlLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -66,9 +66,11 @@
             this.pnlMenu.Name = "pnlMenu";
             this.pnlMenu.Size = new System.Drawing.Size(200, 531);
             this.pnlMenu.TabIndex = 0;
+            this.pnlMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMenu_Paint);
             // 
             // btnOptions
             // 
+            this.btnOptions.AccessibleName = "Options";
             this.btnOptions.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnOptions.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnOptions.FlatAppearance.BorderSize = 0;
@@ -88,6 +90,7 @@
             // 
             // btnReporting
             // 
+            this.btnReporting.AccessibleName = "Reporting";
             this.btnReporting.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnReporting.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnReporting.FlatAppearance.BorderSize = 0;
@@ -107,6 +110,7 @@
             // 
             // btnSetup
             // 
+            this.btnSetup.AccessibleName = "SetUp";
             this.btnSetup.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnSetup.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnSetup.FlatAppearance.BorderSize = 0;
@@ -126,6 +130,7 @@
             // 
             // btnPOS
             // 
+            this.btnPOS.AccessibleName = "PointOfSale";
             this.btnPOS.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnPOS.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnPOS.FlatAppearance.BorderSize = 0;
@@ -163,7 +168,7 @@
             this.linkLabel1.LinkColor = System.Drawing.Color.Yellow;
             this.linkLabel1.Location = new System.Drawing.Point(80, 45);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(71, 16);
+            this.linkLabel1.Size = new System.Drawing.Size(65, 16);
             this.linkLabel1.TabIndex = 4;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "TEAM 1 ";
@@ -212,6 +217,17 @@
             this.pnlTitle.Name = "pnlTitle";
             this.pnlTitle.Size = new System.Drawing.Size(657, 80);
             this.pnlTitle.TabIndex = 1;
+            // 
+            // UserLabel
+            // 
+            this.UserLabel.AutoSize = true;
+            this.UserLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UserLabel.ForeColor = System.Drawing.Color.Chartreuse;
+            this.UserLabel.Location = new System.Drawing.Point(6, 36);
+            this.UserLabel.Name = "UserLabel";
+            this.UserLabel.Size = new System.Drawing.Size(76, 31);
+            this.UserLabel.TabIndex = 4;
+            this.UserLabel.Text = "User";
             // 
             // btnExit
             // 
@@ -262,17 +278,6 @@
             this.pnlMainForm.Name = "pnlMainForm";
             this.pnlMainForm.Size = new System.Drawing.Size(657, 451);
             this.pnlMainForm.TabIndex = 5;
-            // 
-            // UserLabel
-            // 
-            this.UserLabel.AutoSize = true;
-            this.UserLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserLabel.ForeColor = System.Drawing.Color.Chartreuse;
-            this.UserLabel.Location = new System.Drawing.Point(6, 36);
-            this.UserLabel.Name = "UserLabel";
-            this.UserLabel.Size = new System.Drawing.Size(76, 31);
-            this.UserLabel.TabIndex = 4;
-            this.UserLabel.Text = "User";
             // 
             // MainForm
             // 
