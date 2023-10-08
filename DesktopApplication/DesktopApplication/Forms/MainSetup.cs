@@ -51,5 +51,11 @@ namespace DesktopApplication.Forms
             FormPermissions permissions = new FormPermissions();
             permissions.ShowDialog();
         }
+
+        private void btnTables_Click(object sender, EventArgs e)
+        {
+            FormTables tables = new FormTables();
+            tables.ShowDialog();
+        }
     }
 }

@@ -11,6 +11,7 @@ using System.Diagnostics;
 using DesktopApplication.Forms;
 using DesktopApplication.Classes;
 using DesktopApplication.Models;
+using System.Runtime.InteropServices;
 
 namespace DesktopApplication.Forms
 {
@@ -38,6 +39,12 @@ namespace DesktopApplication.Forms
             UserLabel.Text = user;
             
         }
+
+        [DllImport("user32.dll", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.dll", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(IntPtr hWnd,int wMsg,int wParam,int lParam);
+
 
         private void OpenChildForm(Form cForm , object btnSender)
         {
@@ -176,5 +183,13 @@ namespace DesktopApplication.Forms
         {
             loadPermission(this.Controls, "Main");
         }
+
+        private void pnlTitle_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle,0x112,0xf012,0);
+        }
+
+      
     }
 }

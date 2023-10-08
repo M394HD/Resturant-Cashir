@@ -320,6 +320,12 @@
     <Compile Include="Forms\FormSelect.Designer.cs">
       <DependentUpon>FormSelect.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormTables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTables.Designer.cs">
+      <DependentUpon>FormTables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -438,6 +444,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormSelect.resx">
       <DependentUpon>FormSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTables.resx">
+      <DependentUpon>FormTables.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormUser.resx">
       <DependentUpon>FormUser.cs</DependentUpon>

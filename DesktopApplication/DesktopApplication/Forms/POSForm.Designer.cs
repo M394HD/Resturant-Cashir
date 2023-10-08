@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(POSForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.lblToal = new System.Windows.Forms.Label();
             this.button14 = new System.Windows.Forms.Button();
@@ -49,6 +49,11 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panelItems = new System.Windows.Forms.Panel();
             this.djvItems = new System.Windows.Forms.DataGridView();
+            this.ColItemId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColItemName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColQTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColItemPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnDot = new System.Windows.Forms.Button();
@@ -63,11 +68,6 @@
             this.btn9 = new System.Windows.Forms.Button();
             this.btn8 = new System.Windows.Forms.Button();
             this.btn7 = new System.Windows.Forms.Button();
-            this.ColItemId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColItemName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColQTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColItemPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.djvItems)).BeginInit();
@@ -233,6 +233,7 @@
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Controls.Add(this.button14);
             this.panel4.Controls.Add(this.btnPay);
@@ -253,6 +254,7 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.txtTotal);
             this.panel3.Controls.Add(this.lblToal);
@@ -263,6 +265,7 @@
             // 
             // panelItems
             // 
+            this.panelItems.BackColor = System.Drawing.Color.White;
             this.panelItems.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelItems.Location = new System.Drawing.Point(314, 7);
             this.panelItems.Name = "panelItems";
@@ -274,14 +277,14 @@
             this.djvItems.AllowUserToAddRows = false;
             this.djvItems.AllowUserToDeleteRows = false;
             this.djvItems.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.djvItems.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.djvItems.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.djvItems.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.djvItems.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColItemId,
@@ -289,22 +292,61 @@
             this.ColQTY,
             this.ColPrice,
             this.ColItemPrice});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.djvItems.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.djvItems.DefaultCellStyle = dataGridViewCellStyle2;
             this.djvItems.Location = new System.Drawing.Point(9, 7);
             this.djvItems.Name = "djvItems";
             this.djvItems.ReadOnly = true;
             this.djvItems.Size = new System.Drawing.Size(299, 436);
             this.djvItems.TabIndex = 6;
             // 
+            // ColItemId
+            // 
+            this.ColItemId.HeaderText = "Id";
+            this.ColItemId.Name = "ColItemId";
+            this.ColItemId.ReadOnly = true;
+            this.ColItemId.Visible = false;
+            // 
+            // ColItemName
+            // 
+            this.ColItemName.FillWeight = 130F;
+            this.ColItemName.HeaderText = "Item";
+            this.ColItemName.Name = "ColItemName";
+            this.ColItemName.ReadOnly = true;
+            this.ColItemName.Width = 130;
+            // 
+            // ColQTY
+            // 
+            this.ColQTY.FillWeight = 50F;
+            this.ColQTY.HeaderText = "QTY";
+            this.ColQTY.Name = "ColQTY";
+            this.ColQTY.ReadOnly = true;
+            this.ColQTY.Width = 50;
+            // 
+            // ColPrice
+            // 
+            this.ColPrice.FillWeight = 70F;
+            this.ColPrice.HeaderText = "Price";
+            this.ColPrice.Name = "ColPrice";
+            this.ColPrice.ReadOnly = true;
+            this.ColPrice.Width = 70;
+            // 
+            // ColItemPrice
+            // 
+            this.ColItemPrice.HeaderText = "ItemPrice";
+            this.ColItemPrice.Name = "ColItemPrice";
+            this.ColItemPrice.ReadOnly = true;
+            this.ColItemPrice.Visible = false;
+            // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.btnCancel);
             this.panel1.Controls.Add(this.btnDot);
@@ -453,44 +495,6 @@
             this.btn7.TabIndex = 0;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = true;
-            // 
-            // ColItemId
-            // 
-            this.ColItemId.HeaderText = "Id";
-            this.ColItemId.Name = "ColItemId";
-            this.ColItemId.ReadOnly = true;
-            this.ColItemId.Visible = false;
-            // 
-            // ColItemName
-            // 
-            this.ColItemName.FillWeight = 130F;
-            this.ColItemName.HeaderText = "Item";
-            this.ColItemName.Name = "ColItemName";
-            this.ColItemName.ReadOnly = true;
-            this.ColItemName.Width = 130;
-            // 
-            // ColQTY
-            // 
-            this.ColQTY.FillWeight = 50F;
-            this.ColQTY.HeaderText = "QTY";
-            this.ColQTY.Name = "ColQTY";
-            this.ColQTY.ReadOnly = true;
-            this.ColQTY.Width = 50;
-            // 
-            // ColPrice
-            // 
-            this.ColPrice.FillWeight = 70F;
-            this.ColPrice.HeaderText = "Price";
-            this.ColPrice.Name = "ColPrice";
-            this.ColPrice.ReadOnly = true;
-            this.ColPrice.Width = 70;
-            // 
-            // ColItemPrice
-            // 
-            this.ColItemPrice.HeaderText = "ItemPrice";
-            this.ColItemPrice.Name = "ColItemPrice";
-            this.ColItemPrice.ReadOnly = true;
-            this.ColItemPrice.Visible = false;
             // 
             // POSForm
             // 

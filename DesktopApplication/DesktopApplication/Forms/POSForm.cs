@@ -56,6 +56,7 @@ namespace DesktopApplication.Forms
                 for (int i = 0; i <= drs.Length - 1; i++)
                 {
                     Button catBtn = new Button();
+                    catBtn.BackColor= Color.LightGray;
                     catBtn.AccessibleName = "CAT";
                     catBtn.AccessibleDescription = drs[i]["Id"].ToString();
                     catBtn.Name = "btnCat" + drs[i]["Id"].ToString();
@@ -135,6 +136,7 @@ namespace DesktopApplication.Forms
                 for (int i = 0; i <= drs.Length - 1; i++)
                 {
                     catBtn = new Button();
+                    catBtn.BackColor = Color.LightGray;
                     catBtn.AccessibleName = "IT";
                     catBtn.AccessibleDescription = drs[i]["Id"].ToString();
                     catBtn.Name = "btnCat" + drs[i]["Id"].ToString();
